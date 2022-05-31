@@ -15,7 +15,7 @@ spec:
     spec:
       containers: 
       - name: mylogin-container 
-        image: maha4iac/mylogin:2
+        image: maha4iac/mylogin:1
         ports: 
          - containerPort: 8080
          
