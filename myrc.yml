@@ -14,7 +14,7 @@ spec:
           version: 2.6.1
     spec:
       containers:
-      - name:  mylogin-container 
+      - name: mylogin-container   
         image: maha4iac/myonlinebooking:1
         ports:
          - containerPort: 8080 
