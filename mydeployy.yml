@@ -16,7 +16,7 @@ spec:
      spec:
       containers:
       - name: myjavaimage-container
-        image: shettypk/myjavaimage06june22:1
+        image: shettypk/myjavaimage06june:1
         ports: 
 
         - containerPort: 8080
