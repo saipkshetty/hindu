@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myjavaapp-deploy
+  name: myloveimage-deploy
   labels:
-   app: myjavaapp
+   app: myloveimage
 spec:
    replicas: 3
    selector:
       matchLabels:
-          app: myjavaapp
+          app: myloveimage
    template:
      metadata:
        labels:
-        app: myjavaapp
+        app: myloveimage
      spec:
       containers:
       - name: myjavaapp-container
-        image: shettypk/myjavaimage03:3
+        image: shettypk/myloveimage15me:1
         ports: 
 
         - containerPort: 8080
